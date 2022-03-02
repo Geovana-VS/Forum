@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { PainelVagasComponent } from './painel-vagas/painel-vagas.component';
 import { MenuVagasComponent } from './menu-vagas/menu-vagas.component';
 import { RodapeVagasComponent } from './rodape-vagas/rodape-vagas.component';
+import { VagasPcdComponent } from './components/vagas-pcd/vagas-pcd.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { RodapeVagasComponent } from './rodape-vagas/rodape-vagas.component';
     MuralDeVagasComponent,
     PainelVagasComponent,
     MenuVagasComponent,
-    RodapeVagasComponent
+    RodapeVagasComponent,
+    VagasPcdComponent
   ],
   imports: [
     BrowserModule,

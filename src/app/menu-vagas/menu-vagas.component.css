@@ -1,0 +1,25 @@
+.menu{
+  background-color: #3a68cb;
+
+}
+
+.menu{
+  background-color: #83b7e4;
+  padding: 0;
+  color: black;
+}
+
+
+
+.logo{
+  width: 200px;
+  height: 200px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.btn-menu{
+  margin-left: 20px;
+}
+
+

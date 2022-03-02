@@ -1,0 +1,26 @@
+{
+	"vagas": [
+    {
+			"id": 1,
+			"nome": "Desenvolvedor Back End",
+			"foto": "imagem1.jpg",
+			"descricao": "Trabalhar muito ",
+			"salario": 5000
+		},
+		{
+			"id": 2,
+			"nome": "Desenvolvedor Front End",
+			"foto": "imagem2.jpg",
+			"descricao": "Trabalhar muito muito ",
+			"salario": 6000
+		},
+		{
+			"id": 3,
+			"nome": "Desenvolvedor Fullstack",
+			"foto": "imagem3.jpg",
+			"descricao": "Trabalhar muito muito muito ",
+			"salario": 7000
+		}
+
+	]
+}

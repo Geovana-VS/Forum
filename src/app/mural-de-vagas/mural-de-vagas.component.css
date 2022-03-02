@@ -1,0 +1,13 @@
+.lista-vagas{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.cont-pdc{
+  background-image:('');
+}
+
+
+

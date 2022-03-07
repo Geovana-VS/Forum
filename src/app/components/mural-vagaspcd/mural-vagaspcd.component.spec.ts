@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VagasPcdComponent } from './vagas-pcd.component';
+import {MuralVagaspcdComponent } from './mural-vagaspcd.component';
 
-describe('VagasPcdComponent', () => {
-  let component: VagasPcdComponent;
-  let fixture: ComponentFixture<VagasPcdComponent>;
+describe('MuralVagaspcdComponent', () => {
+  let component: MuralVagaspcdComponent;
+  let fixture: ComponentFixture<MuralVagaspcdComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ VagasPcdComponent ]
+      declarations: [ MuralVagaspcdComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(VagasPcdComponent);
+    fixture = TestBed.createComponent(MuralVagaspcdComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

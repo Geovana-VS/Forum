@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { Vaga } from '../models/Vagas.model';
-import { VagasService } from '../vagas.service';
+import { Vaga } from '../../models/Vagas.model';
+import { VagasService } from '../../vagas.service';
+
 
 @Component({
-  selector: 'app-mural-de-vagas',
-  templateUrl: './mural-de-vagas.component.html',
-  styleUrls: ['./mural-de-vagas.component.css']
+  selector: 'app-mural-vagaspcd',
+  templateUrl: './mural-vagaspcd.component.html',
+  styleUrls: ['./mural-vagaspcd.component.css']
 })
-export class MuralDeVagasComponent implements OnInit {
+export class MuralVagaspcdComponent implements OnInit {
 
 
   public vagas : Vaga[] = [];
@@ -39,4 +40,3 @@ export class MuralDeVagasComponent implements OnInit {
 
 
   }
-

@@ -1,0 +1,6 @@
+.lista-vagas{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}

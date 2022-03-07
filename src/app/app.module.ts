@@ -2,31 +2,34 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import{HttpClientModule} from '@angular/common/http';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MuralDeVagasComponent } from './mural-de-vagas/mural-de-vagas.component';
+
 import { RouterModule } from '@angular/router';
-import { PainelVagasComponent } from './painel-vagas/painel-vagas.component';
-import { MenuVagasComponent } from './menu-vagas/menu-vagas.component';
-import { RodapeVagasComponent } from './rodape-vagas/rodape-vagas.component';
-import { VagasPcdComponent } from './components/vagas-pcd/vagas-pcd.component';
+import { MenuVagasComponent } from './components/menu-vagas/menu-vagas.component';
+import { RodapeVagasComponent } from './components/rodape-vagas/rodape-vagas.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
+import { MuralVagaspcdComponent } from './components/mural-vagaspcd/mural-vagaspcd.component';
+import { MuralDeVagasComponent } from './components/mural-de-vagas/mural-de-vagas.component';
+import { MuralVagastecComponent } from './components/mural-vagastec/mural-vagastec.component';
+import { MuralVagasmedComponent } from './components/mural-vagasmed/mural-vagasmed.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MuralDeVagasComponent,
-    PainelVagasComponent,
     MenuVagasComponent,
     RodapeVagasComponent,
-    VagasPcdComponent
+    MuralVagaspcdComponent,
+    MuralDeVagasComponent,
+    MuralVagastecComponent,
+    MuralVagasmedComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule,
-    AppRoutingModule
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

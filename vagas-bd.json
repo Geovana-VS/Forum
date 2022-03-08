@@ -2,23 +2,23 @@
 	"vagas": [
     {
 			"id": 1,
-			"nome": "Desenvolvedor Back End",
+			"nome": "Brand Specialist / Especialista De Gestão De Marcas",
 			"foto": "imagem1.jpg",
-			"descricao": "Trabalhar muito ",
+			"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ",
 			"salario": 5000
 		},
 		{
 			"id": 2,
-			"nome": "Desenvolvedor Front End",
+			"nome": "Atendente De Relacionamento",
 			"foto": "imagem2.jpg",
-			"descricao": "Trabalhar muito muito ",
+			"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ",
 			"salario": 6000
 		},
 		{
 			"id": 3,
-			"nome": "Desenvolvedor Fullstack",
+			"nome": "Assistente Administrativo Transportes",
 			"foto": "imagem3.jpg",
-			"descricao": "Trabalhar muito muito muito ",
+			"descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ",
 			"salario": 7000
 		}
 
